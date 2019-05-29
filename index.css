@@ -1,0 +1,99 @@
+body {
+	background-color:#cdbed8;
+	margin-left: 20px;
+}
+
+#login, #logout {
+	font-weight:bold;
+	cursor:pointer;
+}
+
+#login:hover, #logout:hover {
+	color: white;
+}
+
+#auth {
+	text-align: right;
+}
+
+h2 {
+ text-align: center;
+}
+
+.img {
+	text-align: center;
+}
+
+.app-description {
+	text-align:justify ;
+}
+
+button {
+	cursor:pointer;
+	font-weight:bold;
+	background-color: #61407a;
+	color: white;
+	border-style: outset;
+	border-radius: 7px;
+	padding: 10px 20px;
+	border-width:3px;
+	margin:15px 5px;
+}
+
+button:hover {
+	color: #3e274f;
+	background-color:white;
+	border-color: #61407a;
+}
+
+#add-storage, #add-doc {
+	cursor:pointer;
+	font-weight:bold;
+	background-color: #61407a;
+	color: white;
+	border-style: outset;
+	border-radius: 7px;
+	padding: 10px 20px;
+	border-width:3px;
+	margin:15px 35%;
+	text-align: center;
+	width: 330px;
+}
+
+.newDocument-item {
+	border: 2px solid white;
+	padding-left: 20px;
+	width: 350px;
+	margin-left:35%
+}
+
+.document-title {
+	width: 320px;
+}
+
+.storage-item {
+	border: 2px solid white;
+	padding-left: 20px;
+	width: 260px;
+	margin-left:40%
+}
+
+.storage-title {
+	width:240px;
+	margin-top: 15px;
+}
+#returnButton {
+	margin-left:35%;
+}
+
+.show-documents {
+	margin-left:40%;
+}
+
+#message {
+	margin-left:43%;
+	color: #61407a;
+}
+#loader {
+	margin-left:50%;
+}
